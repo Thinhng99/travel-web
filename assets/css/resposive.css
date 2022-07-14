@@ -1,0 +1,114 @@
+
+
+@media (max-width:739px) {
+    .header-title-heading{
+        font-size: 55px;
+    }
+    .header-title-body{
+        font-size: 55px;
+    }
+    .hide-onmb{
+        display: none;
+    }
+    .header-navbar {
+        height: 80px;
+    }
+    .header-navbar-container{
+        height: 80px;
+    }
+    .logo-name{
+        font-size: 30px;
+    }
+    .logo{
+        margin-left: 10px;
+        transform: scale(0.9);
+    }
+    .header-title .btn-wrap{
+        transform: scale(0.9);
+    }
+    .search-main{
+        margin: 0 10px;
+        padding-top: 0;
+    }
+    .search-main-label{
+        padding-top: 15px;
+    }
+
+    .tour-heading{
+        font-size: 30px;
+    }
+    .tour-text{
+        font-size: 20px ;
+    }
+
+
+    .trend-img{
+        margin-left: 9px;
+    }
+
+    .tour-place{
+        margin: 0 8px 12px 8px;
+    }
+    .package-wrap{
+        margin: 0 8px 0 8px;
+    }
+    .offer{
+        padding: 0 8px;
+    }
+    .res-card{
+        margin: 0 8px 30px 8px;
+    }
+    .trend-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .trend-infor{
+        align-items: center;
+    }
+    .footer-travelix{
+        padding: 0 20px;
+    }
+    .footer-bloog{
+        margin-left:20px;
+    }
+    .find-input{
+        top:51px
+
+    }
+    .header-navbar{
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .header-title-heading {
+        margin-top: 10vh;
+    }
+ }
+ @media (min-width:1025px){
+    .hide-on-pc{
+        display: none;
+    }
+ }
+@media (min-width:740px) and (max-width:1024px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .tour-place-name{
+        font-size: 48px;
+    }
+    .res-card{
+        margin: 0 8px 30px 8px;
+    }
+    .tour-place{
+        margin: 0 8px 12px 8px;
+    }
+    .search-main-label{
+        padding-top: 15px;
+    }
+    .open-task-icon{
+        margin-left: 12px;
+    }
+}
